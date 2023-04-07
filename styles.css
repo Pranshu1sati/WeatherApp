@@ -1,0 +1,33 @@
+/* .card{
+    max-width: 800px;
+    text-align: center;
+    align-content: center;
+    margin: 2rem 14rem 2rem 14rem;
+}
+.time{
+    max-height: 800px;
+} */
+.icon{
+    position:relative;
+    top:-50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -10px;
+}
+.details{
+    margin-top: 0;
+}
+@media (min-width:801px)  { .card{
+    max-width: 800px;
+    text-align: center;
+    align-content: center;
+    margin: 1rem 14rem 1rem 14rem;
+}
+.time{
+    max-height: 800px;
+} }
+@media (max-width: 576px) {
+    .change-location label {
+      font-size: 1.5rem;
+    }
+  }
